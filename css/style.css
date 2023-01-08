@@ -1,0 +1,128 @@
+
+/* --- BASIC --- */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0; /* delete default margins */
+	font-family: 'Open Sans', sans-serif;
+	background-image: url("../img/fond.png"); 
+}
+
+
+/* --- MAIN BODY --- */
+
+
+/* Header */
+
+header {
+	background-color: #34b1b3; 
+	margin-top: 100px;
+	text-align: center;
+	border-top: 3px solid #2b9aa1;
+	border-bottom: 3px solid #2b9aa1;
+}
+
+header nav {
+	margin-bottom: 20px;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Slabo 27px', serif;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+/* Main */
+
+main {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+/* #section-recipe */
+
+#section-recipe {
+	background-color: #b6dedd;
+	width: 80%;
+	padding: 20px;
+	float: left;
+}
+
+#section-recipe h2 {
+	text-align: center;
+	font-size: 50px;
+	color: #72878c;
+}
+
+#section-recipe h2 span {
+	color: #34b1b3;
+}
+
+#section-news {
+	width: 18%;
+	background-color: #34b1b3;
+	float: right;
+	position: relative;
+}
+
+#section-recipe article {
+	width: 47%;
+}
+
+#section-recipe article:nth-child(1) {
+	/* first article */
+	float: left;
+}
+
+#section-recipe article:nth-child(2) {
+	/* second article */
+	float: right;
+}
+
+#section-recipe article img {
+	text-align: left;
+	float: left;
+	margin-right: 10px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+#section-recipe article p {
+	text-align: justify;
+}
+
+#section-recipe a {
+	float: right;
+	text-decoration: none;
+	color: white;
+	background-color: #2b9aa1;
+	padding: 5px 20px;
+}
+
+#section-recipe a:hover {
+	opacity: 0.7;
+}
+
+
+/* --- ELSE --- */
+
+.clear {
+	clear: both; /* delete float effects */
+}
+
+
+#vignette {
+	width: 100px;
+	position: absolute;
+	/* positioning the vignette */
+	margin-left: 38px;
+	margin-top: -43px;
+}

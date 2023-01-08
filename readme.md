@@ -1,0 +1,1 @@
+https://fonts.googleapis.com/css2?family=Open+Sans&family=Slabo+27px&display=swap
